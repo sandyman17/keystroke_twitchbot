@@ -1,0 +1,23 @@
+{
+  "name": "twitch-dmx-bot",
+  "version": "1.0.0",
+  "description": "Sends Keystrokes on Events/Triggers in Twitchchat to Daslight",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DMX",
+    "Twitch"
+  ],
+  "author": "KayPure",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "node-key-sender": "^1.0.11",
+    "path": "^0.12.7",
+    "robotjs": "^0.6.0",
+    "streamlabs-socket-client": "0.0.4",
+    "tmi.js": "^1.5.0"
+  }
+}
